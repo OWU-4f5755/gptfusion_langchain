@@ -12,7 +12,7 @@ import sys
 import os
 import json
 
-os.environ["OPENAI_API_KEY"] = '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'
+# os.environ["OPENAI_API_KEY"] = ''
 
 def construct_index(directory_path):
     max_input_size = 32768
@@ -150,7 +150,7 @@ parallel_iface.launch(share=True)
 # import glob  # may not need this
 # import json
 
-# os.environ["OPENAI_API_KEY"] = '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'
+# os.environ["OPENAI_API_KEY"] = ''
 
 # def construct_index(directory_path):
 #     max_input_size = 32768

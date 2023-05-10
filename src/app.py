@@ -91,7 +91,7 @@ if __name__ == "__main__":
 # import sys
 # import os
 
-# os.environ["OPENAI_API_KEY"] = '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'
+# os.environ["OPENAI_API_KEY"] = ''
 
 # def construct_index(directory_path):
 #     max_input_size = 12228  # 12228 = 4096*3 with gpt-4-32k, but can technically be 32768; 4096 input tokens originally with gpt-3.5-turbo
